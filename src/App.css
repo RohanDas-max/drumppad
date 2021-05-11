@@ -1,0 +1,66 @@
+body {
+  background: #9c5a8c;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  height: 100vh;
+  margin: 1em;
+}
+
+h1{
+  grid-area: 1/2/2/3;
+  text-align: center;
+  color: antiquewhite;
+  border-bottom: 3px solid rgb(211, 198, 198);
+  border-width: thick;
+  display: inline;
+}
+
+.main {
+  grid-area: 2 / 2 / 3 / 3;
+  background: rgb(68, 59, 59);
+  border-radius: 14px;
+  border-width: 10px;
+}
+.main-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 0;
+  height: 68vh;
+}
+
+.main-4 {
+  
+    display: grid;
+    height: 25vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 155px
+
+    
+}
+
+.button {
+  width: auto;
+  background-color:cornsilk;
+  border: aliceblue;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.menu{
+font-size: 20px;
+text-align: center;
+margin-top: 200px;
+width: 100%;
+}
